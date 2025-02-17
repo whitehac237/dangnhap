@@ -1,0 +1,126 @@
+html,body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.DangNhap
+{
+  
+    font-size: 5rem;
+    color: blue;
+    margin-bottom: 0.5rem;
+ 
+}
+#TKMK
+{
+    
+    display: flex;
+    border: 0.5rem solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 70rem;
+    height: 40rem;
+    
+   
+}
+li
+{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    
+}
+input
+{
+    padding: 1.5rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    
+}
+#login button
+{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+  
+}
+#QMK
+{
+    margin-left: 40rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .DangNhap
+    {
+        font-size: 7vw;
+    }
+    #TKMK
+{
+    
+    width: 90%;
+    padding: 1.5rem;
+   
+}
+input
+{
+    font-size: 0.9rem;
+}
+
+#QMK
+{
+  margin: 0;
+  font-size: 1rem;
+}
+
+}
+
+@media (max-width: 480px) {
+    .DangNhap
+    {
+        font-size: 7vw;
+    }
+    #TKMK
+{
+    
+    width: 100%;
+    padding: 1rem;
+   
+}
+input
+{
+    font-size: 0.8rem;
+}
+
+#login button
+{
+    font-size: 0.7rem;
+    width: 5rem;
+    height: 2rem;
+}
+#QMK
+{
+  margin: 0;
+  font-size: 1rem;
+}
+}
